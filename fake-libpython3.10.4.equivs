@@ -1,0 +1,11 @@
+Package: fake-libpython3.10.4
+Version: 1.0
+Architecture: all
+Maintainer: Equivs Dummy Package Generator <kaulfield@protonmail.com>
+Installed-Size: 9
+Depends: libpython3.11
+Provides: libpython3.10, libpython3.10-minimal, libpython3.10-stdlib
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Description: Fake libpython3.10 package to satisfy dependencies

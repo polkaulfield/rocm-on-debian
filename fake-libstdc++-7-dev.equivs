@@ -1,0 +1,10 @@
+Package: fake-libstdc++-7-dev
+Version: 7.5.0-6
+Architecture: all
+Maintainer: Equivs Dummy Package Generator <kaulfield@protonmail.com>
+Installed-Size: 9
+Provides: libstdc++-7-dev
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Description: Fake libstdc++-7-dev package to block a dependency check for the rocm-llvm package from AMD

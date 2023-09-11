@@ -1,0 +1,10 @@
+Package: fake-python3.10.4
+Version: 3.10.4
+Architecture: all
+Maintainer: Equivs Dummy Package Generator <kaulfield@protonmail.com>
+Installed-Size: 9
+Section: python
+Provides: python3.10
+Priority: optional
+Multi-Arch: foreign
+Description: Fake python package to block a dependency check for the rocm-llvm package from AMD

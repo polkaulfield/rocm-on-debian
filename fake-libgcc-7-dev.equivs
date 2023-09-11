@@ -1,0 +1,10 @@
+Package: fake-libgcc-7-dev
+Version: 7.5.0-6
+Architecture: all
+Maintainer: Equivs Dummy Package Generator <kaulfield@protonmail.com>
+Installed-Size: 9
+Section: misc
+Provides: libgcc-7-dev
+Priority: optional
+Multi-Arch: foreign
+Description: Fake libgcc-7-dev package to block a dependency check for the rocm-llvm package from AMD
