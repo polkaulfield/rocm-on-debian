@@ -10,8 +10,8 @@ for f in *.deb; do sudo apt install ./$f; done
 
 echo "Installing ROCm with the known working options..."
 sudo apt update
-wget https://repo.radeon.com/amdgpu-install/5.4.1/ubuntu/jammy/amdgpu-install_5.4.50401-1_all.deb
-sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
+wget https://repo.radeon.com/amdgpu-install/5.4.2/ubuntu/jammy/amdgpu-install_5.4.50402-1_all.deb
+sudo apt install ./amdgpu-install_5.4.50402-1_all.deb
 sudo amdgpu-install --usecase=rocm,hip,mllib --no-dkms
 
 echo Done!
